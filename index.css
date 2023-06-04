@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: white;
+}
+
+#container{
+    text-align: center;
+    width: 500px;
+    margin: 25px auto;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+h1 {
+    font-size: 25px
+}
+
+#input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+    margin: 10px
+}
+#message-el{
+    width: 320px;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    background: #444059;
+    color: #8F8F8F;
+}
+
+
+#sender-el{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    padding: 0px;
+}
+
+.sender {
+    width: 153px; 
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: #444059;
+    color: #8F8F8F;
+    
+}
+
+button{
+    background: #28A9F1;
+    color: #04131C;
+    padding: 10px 20px;
+    width: 320px;
+    height: 60px;
+    border: none;
+    border-radius: 10px
+}
+
+h2{
+    font-size: 20px;
+}
+#Endorsement-messages-div{
+    width: 320px;
+    margin: 0px auto;
+}
+
+.message {
+    background: white;
+    color: black;
+    margin: 10px 0px;
+    padding: 1px 10px;
+    text-align: left;
+}
+
+.bold{
+    font-weight: bold;
+}
